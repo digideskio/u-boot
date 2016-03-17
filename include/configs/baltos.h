@@ -80,7 +80,7 @@
 		"ubifsmount ubi0:kernel; " \
 		"ubifsload $loadaddr kernel-fit.itb;" \
 		"ubifsumount; " \
-		"bootm ${loadaddr}#conf${board_name}; " \
+		"bootm ${loadaddr}_conf${board_name}; " \
 		"if test $? -ne 0; then echo Using default FIT config; " \
 		"bootm ${loadaddr}; fi;\0"
 #else

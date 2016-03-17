@@ -36,7 +36,7 @@ Old uImage:
 New uImage:
 8.  bootm <addr1>
 9.  bootm [<addr1>]:<subimg1>
-10. bootm [<addr1>]#<conf>
+10. bootm [<addr1>]_<conf>
 11. bootm [<addr1>]:<subimg1> [<addr2>]:<subimg2>
 12. bootm [<addr1>]:<subimg1> [<addr2>]:<subimg2> [<addr3>]:<subimg3>
 13. bootm [<addr1>]:<subimg1> [<addr2>]:<subimg2> <addr3>

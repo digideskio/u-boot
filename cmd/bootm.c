@@ -124,7 +124,7 @@ int do_bootm(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
 		 *
 		 * Right now we assume the first arg should never be '-'
 		 */
-		if ((*endp != 0) && (*endp != ':') && (*endp != '#'))
+		if ((*endp != 0) && (*endp != ':') && (*endp != '_'))
 			return do_bootm_subcommand(cmdtp, flag, argc, argv);
 	}
 
